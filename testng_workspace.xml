@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DCirrus Application">
+
+<listeners>
+		<listener class-name="main.java.workspace.com.dcirrus.login.ExtentReporterNG" />
+	</listeners>
+
+<parameter name="URL" value="https://dcirrus.co.in/appnew/drive.html"/>
+<parameter name="folderpath" value="C:\Users\akhil\Documents\DCirrus\Testing\Automation\Test Environment\TestData"/>
+<parameter name="filepath" value="C:\Users\akhil\Documents\DCirrus\Testing\Automation\Test Environment\outputemail.msg.txt"/>
+
+
+ <test  name="User module" enabled="true" >
+ 
+ 
+<parameter name="id" value="user1test410@protonmail.com"></parameter>
+<parameter name="password" value="Test@123"></parameter>
+<parameter name="corporateID" value="0020410"></parameter>
+
+<parameter name="subFoldername" value="Maven_works"></parameter>
+<parameter name="renamedFolder" value="Software"></parameter>
+<parameter name="foldername1" value="All"></parameter>
+<parameter name="downloadfilename1" value="Test_XLS1.xlsx"></parameter>
+<parameter name="foldername2" value="Upload"></parameter>
+<parameter name="downloadfilename2" value="Test_XLS2.xlsx"></parameter>
+<parameter name="foldername3" value="Download"></parameter>
+<parameter name="downloadfilename3" value="Test_XLS2.xlsx"></parameter>
+<parameter name="subFolderdefault" value="Test03"></parameter>
+
+
+<classes>
+
+ <class name="main.java.workspace.com.dcirrus.login.UserModule">
+
+</class>
+</classes>
+
+</test>
+
+
+<test  name="Admin module" enabled="true">
+  
+ 
+  <parameter name="id" value="admin1test@protonmail.com"/>
+  <parameter name="password" value="Test@123"/>
+  <parameter name="corporateID" value="0020410"/>
+  
+  <parameter name="name" value="View"/>
+  <parameter name="name1" value="Software"/>
+  <parameter name="deleteName" value="Zone"/>
+  <parameter name="subFoldername" value="list"/>
+  <parameter name="filename" value="Test_XLS4.xlsx"/> 
+  <parameter name="foldername1" value="All"></parameter> 
+  <parameter name="foldername3" value="Download"/> 
+  <parameter name="renamedFolder" value="Document"></parameter>
+  
+  
+    <classes>
+      <class name="main.java.workspace.com.dcirrus.login.DcirrusAutomation">
+     </class>
+
+    </classes>
+</test> 
+  
+  
+ 
+ </suite> <!-- Suite -->

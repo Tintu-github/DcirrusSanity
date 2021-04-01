@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="main.java.com.dcirrus.login.DcirrusAutomation">
+        <methods>
+          <include name="cleanup"/>
+          <include name="downloadMultipleFiles"/>
+          <include name="rename"/>
+          <include name="shareFolderCollaborate"/>
+          <include name="resendActivation"/>
+          <include name="downloadFile"/>
+          <include name="userCreation"/>
+          <include name="useractivationmail"/>
+          <include name="userWelcomemail"/>
+          <include name="restore"/>
+          <include name="createNewFolder"/>
+          <include name="uploadFile"/>
+          <include name="downloadFolder"/>
+          <include name="tearDown"/>
+          <include name="userDeletion"/>
+          <include name="ResetPasswordUser"/>
+          <include name="downloadVersionList"/>
+          <include name="fileviewDOC"/>
+          <include name="setUp"/>
+          <include name="uploadFolder"/>
+          <include name="existingFolder"/>
+          <include name="fileviewXLS"/>
+          <include name="shareFolderDownload"/>
+          <include name="subFolder"/>
+          <include name="deleteFolder"/>
+          <include name="downloadFileFunctionality"/>
+          <include name="enterFolderName"/>
+          <include name="requestFileDeposit"/>
+        </methods>
+      </class> <!-- main.java.com.dcirrus.login.DcirrusAutomation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

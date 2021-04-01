@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DCirrus Application]">
+  <parameter name="folderpath" value="C:\Users\91863\Desktop\TestData"/>
+  <parameter name="filepath" value="C:\Users\91863\Documents\selenium.docx"/>
+  <parameter name="renamedFolder" value="Software"/>
+  <parameter name="URL" value="https://dcirrus.co.in/appnew/drive.html"/>
+  <test thread-count="5" name="Admin module(failed)">
+    <parameter name="password" value="Test@123"/>
+    <parameter name="subFoldername" value="list"/>
+    <parameter name="filename" value="Test_XLS4.xlsx"/>
+    <parameter name="renamedFolder1" value="Document"/>
+    <parameter name="name" value="View"/>
+    <parameter name="id" value="admin1test@protonmail.com"/>
+    <parameter name="deleteName" value="Zone"/>
+    <parameter name="name1" value="Software"/>
+    <parameter name="foldername1" value="All"/>
+    <parameter name="corporateID" value="0020461"/>
+    <parameter name="foldername3" value="Download"/>
+    <classes>
+      <class name="com.dcirrus.login.DcirrusAutomation">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="restore" invocation-numbers="0"/>
+          <include name="subFolder" invocation-numbers="0"/>
+          <include name="createNewFolder" invocation-numbers="0"/>
+          <include name="cleanup" invocation-numbers="0"/>
+          <include name="deleteFolder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.dcirrus.login.DcirrusAutomation -->
+    </classes>
+  </test> <!-- Admin module(failed) -->
+</suite> <!-- Failed suite [DCirrus Application] -->

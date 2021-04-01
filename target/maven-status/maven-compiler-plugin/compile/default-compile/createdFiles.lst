@@ -1,0 +1,12 @@
+main\java\com\dcirrus\login\download.class
+main\java\com\dcirrus\login\ViewPermissions$SwitchCurrentWindow.class
+main\java\com\dcirrus\login\DcirrusAutomation.class
+main\java\com\dcirrus\login\UserModule$SwitchCurrentWindow.class
+main\java\com\dcirrus\login\AdminPermissions.class
+main\java\com\dcirrus\login\UserModule.class
+main\java\com\dcirrus\login\ViewPermissions.class
+main\java\com\dcirrus\login\RunDcirrusAutomation.class
+main\java\com\dcirrus\login\DcirrusAutomation$SwitchCurrentWindow.class
+main\java\com\dcirrus\login\ExtentReporterNG.class
+main\java\com\dcirrus\login\AdminPermissions$SwitchCurrentWindow.class
+main\java\com\dcirrus\login\upload.class

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DCirrus Application" preserve-order="true">
+
+
+<listeners>
+		<listener class-name="main.java.com.dcirrus.login.ExtentReporterNG" />
+	</listeners>
+	
+<parameter name="URL" value="https://dcirrus.co.in/appnew/drive.html"/>
+<parameter name="folderpath" value="/src/main/java/config/TestData/"/>
+<parameter name="filepath" value="selenium.docx"></parameter>
+<parameter name="renamedFolder" value="Software"></parameter>
+<parameter name="id1" value="user1test410@protonmail.com"></parameter>
+
+ <test name="User module" enabled="false" preserve-order="true">
+
+
+	
+	<parameter name="password" value="Test@123"></parameter>
+	<parameter name="corporateID" value="0020461"></parameter>
+
+
+	<parameter name="subFoldername" value="TestReema12"></parameter>
+	<parameter name="foldername1" value="All"></parameter>
+	<parameter name="downloadfilename1" value="Test_XLS1.xlsx"></parameter>
+	<parameter name="foldername2" value="Upload"></parameter>
+	<parameter name="downloadfilename2" value="Test_XLS2.xlsx"></parameter>
+	<parameter name="foldername3" value="Download"></parameter>
+	<parameter name="downloadfilename3" value="Test_XLS2.xlsx"></parameter>
+	<parameter name="iteration_time" value="60"></parameter>
+
+	<parameter name="subFolderdefault" value="Test03"></parameter>
+
+
+	<classes>
+
+		<class name="main.java.com.dcirrus.login.UserModule">
+		
+		
+		
+
+		</class>
+	</classes>
+
+</test>
+
+
+<test  name="Admin module" enabled="true" preserve-order="true">
+  
+ 
+  <parameter name="id" value="rama.aws2016@gmail.com"/>
+  <parameter name="password" value="Test@123"/>
+  <parameter name="corporateID" value="0020382"/>
+  
+  <parameter name="name" value="View"/>
+  <parameter name="name3" value="selenium"/>
+  <parameter name="name4" value="Software2"/>
+  <parameter name="folder1" value="TestFCreated"/>
+  <parameter name="deleteName" value="Zone"/>
+  <parameter name="subFoldername" value="list"/>
+  <parameter name="xlsfile" value="Test_XLS4.xlsx"/>
+  <parameter name="docfile" value="Test_DOC4.docx"></parameter>
+  <parameter name="pptfile" value="Test_PPT4.pptx"></parameter> 
+  <parameter name="pdffile" value="Test_PDF4.pdf"></parameter>
+  <parameter name="xlsxfile" value="Test_XLSX4.xlsx"></parameter>
+  <parameter name="foldername1" value="All"></parameter> 
+  <parameter name="folder3" value="TestData"/> 
+  <parameter name="renamedFolder1" value="Document"></parameter>
+  <parameter name="numberOfSubFolders" value="15"></parameter>
+  <parameter name="name1" value="Rapm"></parameter>
+  <parameter name="name2" value="Raxpm"></parameter>
+  <parameter name="email" value="radareddy35@gmail.com"></parameter>
+  <parameter name="filename1" value="unique11.docx"></parameter>
+  <parameter name="filename2" value="unique11.docx"></parameter>
+  
+  
+    <classes>
+     
+      <class name="main.java.com.dcirrus.login.AdminPermissions">
+		
+      
+     
+    
+   
+     </class>
+
+    </classes>
+</test> 
+  
+  
+ 
+ </suite> <!-- Suite -->

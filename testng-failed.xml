@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DCirrus Application">
+
+<parameter name="URL" value="https://dcirrus.co.in/appnew/drive.html"/>
+
+
+<test  name="Admin module" enabled="true">
+  
+ 
+  <parameter name="id" value="admin1test@protonmail.com"/>
+  <parameter name="password" value="Test@123"/>
+  <parameter name="corporateID" value="0020461"/>
+ 
+  <parameter name="foldername3" value="Download"/> 
+  
+  
+    <classes>
+    
+      <class name="com.dcirrus.login.download">
+       
+     
+     </class>
+
+    </classes>
+</test> 
+  
+  
+ 
+ </suite> <!-- Suite -->
